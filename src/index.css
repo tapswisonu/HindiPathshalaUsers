@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #4f46e5;
+  --color-brand-accent: #06b6d4;
+  --text-default: #0f172a;
+}
+
+/* You can still add custom CSS below if needed */
+body {
+  font-family: sans-serif;
+}
