@@ -8,6 +8,8 @@ import StudentProfile from "./pages/student/Profile";
 import TeacherDashboard from "./pages/teacher/TeacherDashboard";
 import TeacherProfile from "./pages/teacher/Profile";
 import ProtectedRoute from "./components/ProtectedRoute";
+import "./index.css";
+import LiveClass from "./pages/class/LiveClass";
 
 export default function App() {
   return (
@@ -15,6 +17,7 @@ export default function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/student/login" element={<StudentLogin />} />
       <Route path="/teacher/login" element={<TeacherLogin />} />
+      <Route path="/live-class" element={<LiveClass />} />
 
       <Route path="/student">
         <Route
